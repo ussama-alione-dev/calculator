@@ -49,7 +49,7 @@ const dividion = (a, b) => {
     result = errorMessage;
   } else {
     if (b === 0) {
-      result = "maymknch t9sem number 3la zero :'(  ";
+      result = "impossible de deviser un nombre sur zero :'(  ";
     } else {
       let output = `${a} / ${b} => ` + a / b;
       result = output;
